@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+body,
+html {
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and(max-width: 768px) {
+	.offset-3 {
+		margin-left: 0px !important;
+	}
+}
+
+.jumbotron {
+	background-color: #f5f5f5 !important;
+}
